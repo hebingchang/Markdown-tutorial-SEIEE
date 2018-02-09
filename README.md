@@ -29,13 +29,11 @@ Markdown 的这种特性决定了它在编辑时往往不能即时地显示效�
 
     对于 MS Word 的 doc (docx) 文件，要取得最佳的预览效果，必须安装臃肿的 MS Office 或 WPS ，亦或是使用加载缓慢的 Office Online 才可查看。而对于 Markdown，由于其开源与统一标准，有很多便捷快速的在线工具（例如 Madoko，它甚至支持 LaTeX 公式）支持在线预览 Markdown，免去了安装软件的繁琐。
 
-### Markdown 入门
-
-#### Markdown 文件
-
 *.md 与 *.markdown 都是 Markdown 文件。
 
-#### Markdown 语法
+## Markdown 入门
+
+### Markdown 语法
 
 1. **标题**
     ```
@@ -54,9 +52,9 @@ Markdown 的这种特性决定了它在编辑时往往不能即时地显示效�
     --------------------
     ```
         
-2. **加粗、斜体与下划线**
+2. **加粗、斜体**
     ```
-    *加粗*	, /斜体/, _下划线_, -删除线-
+    **加粗**	, *斜体*, ~~删除线~~
     ```
 
 3. **引用**
@@ -102,12 +100,12 @@ Markdown 的这种特性决定了它在编辑时往往不能即时地显示效�
     ```
 
 9. **代码块**
-```
-	```
-	def main():
-		print('Hello Markdown!')
-	```
-```
+    ```
+        ```
+        def main():
+            print('Hello Markdown!')
+        ```
+    ```
 
 10. **表格**
     ```
@@ -125,3 +123,26 @@ Markdown 的这种特性决定了它在编辑时往往不能即时地显示效�
 
 ### Markdown 编辑器
 
+1. **Bear**
+
+    [http://www.bear-writer.com/](http://www.bear-writer.com/)
+    
+    平台: **iOS** | **Mac**
+    
+    是编写这篇文章所用的编辑器，拥有方便的同步功能，适合作为备忘录使用。在设计上精致与易用，功能上强大却不失便捷。
+
+2. **MarkdownX**
+
+    Download from [豌豆荚](http://www.wandoujia.com/apps/com.ryeeeeee.markdownx)
+    
+    平台: **Android**
+    
+    严格遵循 Material Design 设计规范，界面设计简洁大方，对 Markdown 的支持十分全面。
+
+3. **SimpleNote**
+    
+    [https://simplenote.com/](https://simplenote.com/)
+    
+    平台: **iOS** | **Android** | **Mac** | **Windows** | **Linux** | **Web**
+    
+    全平台。外观简洁美观，操作简单优雅。是一个"极简主义的全平台编辑器"。
